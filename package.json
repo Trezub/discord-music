@@ -1,0 +1,25 @@
+{
+  "name": "discord-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "@types/ws": "^7.2.4",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.2",
+    "youtube-dl": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/youtube-dl": "^1.12.2",
+    "typescript": "^3.9.3"
+  }
+}
